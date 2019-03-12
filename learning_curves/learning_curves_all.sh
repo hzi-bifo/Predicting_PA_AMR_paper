@@ -1,0 +1,1 @@
+/net/sgi/metagenomics/projects/pseudo_genomics/results/classification/v8/learning_curves/v3/learning_curves_all.sh
