@@ -1,0 +1,481 @@
+Isolate	Origin	Geographic Origin
+CH2660	Charité Berlin	Berlin
+CH2527	Charité Berlin	Berlin
+CH2560	Charité Berlin	Berlin
+CH2543	Charité Berlin	Berlin
+CH2608	Charité Berlin	Berlin
+CH2658	Charité Berlin	Berlin
+CH2537	Charité Berlin	Berlin
+CH2591	Charité Berlin	Berlin
+CH2623	Charité Berlin	Berlin
+CH2705	Charité Berlin	Berlin
+CH2718	Charité Berlin	Berlin
+CH2687	Charité Berlin	Berlin
+CH2730	Charité Berlin	Berlin
+CH2699	Charité Berlin	Berlin
+CH2582	Charité Berlin	Berlin
+CH2522	Charité Berlin	Berlin
+CH2598	Charité Berlin	Berlin
+CH2597	Charité Berlin	Berlin
+CH3797	Charité Berlin	Berlin
+CH3882	Charité Berlin	Berlin
+CH3906	Charité Berlin	Berlin
+CH4035	Charité Berlin	Berlin
+CH4047	Charité Berlin	Berlin
+CH4083	Charité Berlin	Berlin
+CH4411	Charité Berlin	Berlin
+CH4418	Charité Berlin	Berlin
+CH4433	Charité Berlin	Berlin
+CH4438	Charité Berlin	Berlin
+CH4459	Charité Berlin	Berlin
+CH4489	Charité Berlin	Berlin
+CH4496	Charité Berlin	Berlin
+CH4507	Charité Berlin	Berlin
+CH4509	Charité Berlin	Berlin
+CH4520	Charité Berlin	Berlin
+CH4528	Charité Berlin	Berlin
+CH4602	Charité Berlin	Berlin
+CH4634	Charité Berlin	Berlin
+CH4681	Charité Berlin	Berlin
+CH4684	Charité Berlin	Berlin
+CH4703	Charité Berlin	Berlin
+CH4704	Charité Berlin	Berlin
+CH4733	Charité Berlin	Berlin
+CH4780	Charité Berlin	Berlin
+CH4785	Charité Berlin	Berlin
+CH4786	Charité Berlin	Berlin
+CH4840	Charité Berlin	Berlin
+CH4860	Charité Berlin	Berlin
+CH4877	Charité Berlin	Berlin
+CH4878	Charité Berlin	Berlin
+CH4914	Charité Berlin	Berlin
+CH5262	Charité Berlin	Berlin
+CH5291	Charité Berlin	Berlin
+CH5334	Charité Berlin	Berlin
+CH5353	Charité Berlin	Berlin
+CH5528	Charité Berlin	Berlin
+CH5531	Charité Berlin	Berlin
+CH2747	Charité Berlin	Berlin
+CH2748	Charité Berlin	Berlin
+CH2756	Charité Berlin	Berlin
+CH2764	Charité Berlin	Berlin
+CH3290	Charité Berlin	Berlin
+CH4766	Charité Berlin	Berlin
+CH2735	Charité Berlin	Berlin
+CH2746	Charité Berlin	Berlin
+CH5548	Charité Berlin	Berlin
+CH5550	Charité Berlin	Berlin
+MHH15151	Hannover Medical School	Hanover
+MHH15152	Hannover Medical School	Hanover
+MHH15187	Hannover Medical School	Hanover
+MHH15204	Hannover Medical School	Hanover
+MHH15275	Hannover Medical School	Hanover
+MHH15280	Hannover Medical School	Hanover
+MHH15817	Hannover Medical School	Hanover
+MHH16050	Hannover Medical School	Hanover
+MHH16208	Hannover Medical School	Hanover
+MHH16371	Hannover Medical School	Hanover
+MHH16373	Hannover Medical School	Hanover
+MHH16379	Hannover Medical School	Hanover
+MHH16427	Hannover Medical School	Hanover
+MHH16459	Hannover Medical School	Hanover
+MHH16513	Hannover Medical School	Hanover
+MHH16530	Hannover Medical School	Hanover
+MHH16563	Hannover Medical School	Hanover
+MHH16610	Hannover Medical School	Hanover
+MHH17441	Hannover Medical School	Hanover
+MHH17501	Hannover Medical School	Hanover
+MHH17546	Hannover Medical School	Hanover
+MHH16951	Hannover Medical School	Hanover
+PSAE1642	Munich	Munich
+PSAE1647	Munich	Munich
+PSAE1649	Munich	Munich
+PSAE1651	Munich	Munich
+PSAE1654	Munich	Munich
+PSAE1837	Gera	Gera
+PSAE1912	Regensburg	Regensburg
+PSAE1934	Bremen	Bremen
+PSAE1975	Regensburg	Regensburg
+PSAE2125	Neubrandenburg	Neubrandenburg
+CH2472	Charité Berlin	Berlin
+CH2671	Charité Berlin	Berlin
+CH2672	Charité Berlin	Berlin
+CH2674	Charité Berlin	Berlin
+CH2675	Charité Berlin	Berlin
+CH2677	Charité Berlin	Berlin
+CH2680	Charité Berlin	Berlin
+CH2682	Charité Berlin	Berlin
+CH2706	Charité Berlin	Berlin
+CH2734	Charité Berlin	Berlin
+CH3613	Charité Berlin	Berlin
+CH4755	Charité Berlin	Berlin
+PSAE2126	Neubrandenburg	Neubrandenburg
+PSAE2325	Neubrandenburg	Neubrandenburg
+PSAE1970	Regensburg	Regensburg
+CH4862	Charité Berlin	Berlin
+CH5362	Charité Berlin	Berlin
+CH5432	Charité Berlin	Berlin
+CH5066	Charité Berlin	Berlin
+CH5159	Charité Berlin	Berlin
+CH5174	Charité Berlin	Berlin
+CH5182	Charité Berlin	Berlin
+CH2502	Charité Berlin	Berlin
+CH5206	Charité Berlin	Berlin
+CH4891	Charité Berlin	Berlin
+CH2639	Charité Berlin	Berlin
+CH4443	Charité Berlin	Berlin
+CH4446	Charité Berlin	Berlin
+ZG5044412	nd	nd
+CH2678	Charité Berlin	Berlin
+CH5596	Charité Berlin	Berlin
+CH5621	Charité Berlin	Berlin
+CH2500	Charité Berlin	Berlin
+CH2685	Charité Berlin	Berlin
+CH2707	Charité Berlin	Berlin
+CH2690	Charité Berlin	Berlin
+CH2698	Charité Berlin	Berlin
+CH3462	Charité Berlin	Berlin
+CH2724	Charité Berlin	Berlin
+CH2829	Charité Berlin	Berlin
+CH2830	Charité Berlin	Berlin
+CH2848	Charité Berlin	Berlin
+CH5267	Charité Berlin	Berlin
+CH2804	Charité Berlin	Berlin
+CH2824	Charité Berlin	Berlin
+CH3466	Charité Berlin	Berlin
+CH4549	Charité Berlin	Berlin
+CH4560	Charité Berlin	Berlin
+CH4574	Charité Berlin	Berlin
+CH4584	Charité Berlin	Berlin
+CH5052	Charité Berlin	Berlin
+CH4916	Charité Berlin	Berlin
+CH4976	Charité Berlin	Berlin
+CH4990	Charité Berlin	Berlin
+CH5022	Charité Berlin	Berlin
+CH4992	Charité Berlin	Berlin
+ZG02420619	Riesa	Riesa
+ZG02488718	Radebeul	Radebeul
+ZG02512057	Radebeul	Radebeul
+CH5688	Charité Berlin	Berlin
+ZG322541	Zwickau	Zwickau
+CH2922	Charité Berlin	Berlin
+MHH15015	Hannover Medical School	Hanover
+CH2939	Charité Berlin	Berlin
+CH5695	Charité Berlin	Berlin
+CH3173	Charité Berlin	Berlin
+CH3484	Charité Berlin	Berlin
+CH3549	Charité Berlin	Berlin
+CH4548	Charité Berlin	Berlin
+CH5462	Charité Berlin	Berlin
+CH5464	Charité Berlin	Berlin
+CH5478	Charité Berlin	Berlin
+CH2713	Charité Berlin	Berlin
+CH2657	Charité Berlin	Berlin
+CH2691	Charité Berlin	Berlin
+CH2665	Charité Berlin	Berlin
+CH5363	Charité Berlin	Berlin
+CH5387	Charité Berlin	Berlin
+CH5551	Charité Berlin	Berlin
+ZG5048010	nd	nd
+ZG5051896	nd	nd
+ZG5089417	nd	nd
+ZG5089456	nd	nd
+ZG8006959	Leipzig	Leipzig
+ZG8038581181	Chemnitz	Chemnitz
+CH3177	Charité Berlin	Berlin
+CH3325	Charité Berlin	Berlin
+PSAE1656	Munich	Munich
+CH3563	Charité Berlin	Berlin
+CH3570	Charité Berlin	Berlin
+CH2860	Charité Berlin	Berlin
+CH2875	Charité Berlin	Berlin
+CH5193	Charité Berlin	Berlin
+CH4591	Charité Berlin	Berlin
+CH5356	Charité Berlin	Berlin
+ZG5003493	Leipzig	Leipzig
+ZG5021922	Leipzig	Leipzig
+CH4745	Charité Berlin	Berlin
+CH4757	Charité Berlin	Berlin
+PSAE1641	Munich	Munich
+PSAE1742	Freiburg	Freiburg
+PSAE2139	Romania	Romania
+ZG314696	Görlitz	Görlitz
+ZG8510487	Leipzig	Leipzig
+ZG8525123	nd	nd
+MHH14990	Hannover Medical School	Hanover
+CH5638	Charité Berlin	Berlin
+CH5666	Charité Berlin	Berlin
+MHH15083	Hannover Medical School	Hanover
+MHH15103	Hannover Medical School	Hanover
+MHH17233	Hannover Medical School	Hanover
+MHH17247	Hannover Medical School	Hanover
+PSAE1401	Stuttgart	Stuttgart
+PSAE1438	Stuttgart	Stuttgart
+CH3606	Charité Berlin	Berlin
+PSAE1635	Munich	Munich
+CH3648	Charité Berlin	Berlin
+CH5591	Charité Berlin	Berlin
+PSAE1645	Munich	Munich
+PSAE2127	Hungary	Hungary
+PSAE1745	Munich	Munich
+ZG314738	Görlitz	Görlitz
+ZG314777	Görlitz	Görlitz
+MHH16727	Hannover Medical School	Hanover
+ZG316694	Görlitz	Görlitz
+MHH16798	Hannover Medical School	Hanover
+MHH14911	Hannover Medical School	Hanover
+PSAE1903	Gera	Gera
+MHH16842	Hannover Medical School	Hanover
+ZG316704	Görlitz	Görlitz
+ZG316716	Görlitz	Görlitz
+PSAE1984	Bremen	Bremen
+PSAE1872	Berlin	Berlin
+PSAE1439	Stuttgart	Stuttgart
+MHH17783	Hannover Medical School	Hanover
+PSAE1630	Gera	Gera
+MHH15286	Hannover Medical School	Hanover
+MHH17767	Hannover Medical School	Hanover
+ZG316717	Görlitz	Görlitz
+ZG316722	Görlitz	Görlitz
+ZG222267	Görlitz	Görlitz
+ZG301975	Görlitz	Görlitz
+ZG205710	Görlitz	Görlitz
+ZG205694	Görlitz	Görlitz
+ZG205565	Görlitz	Görlitz
+ZG302367	Görlitz	Görlitz
+ZG302359	Görlitz	Görlitz
+CH5597	Charité Berlin	Berlin
+ZG302368	Görlitz	Görlitz
+ZG302383	Görlitz	Görlitz
+ZG302442	Görlitz	Görlitz
+ZG302432	Görlitz	Görlitz
+ZG302431	Görlitz	Görlitz
+MS1	University hospital Münster	Münster
+MS2	University hospital Münster	Münster
+MS5	University hospital Münster	Münster
+MHH0147	Hannover Medical School	Hanover
+MHH0426	Hannover Medical School	Hanover
+MHH0927	Hannover Medical School	Hanover
+MHH0985	Hannover Medical School	Hanover
+F2030	University hospital Frankfurt	Frankfurt
+F2034	University hospital Frankfurt	Frankfurt
+F2035	University hospital Frankfurt	Frankfurt
+F2040	University hospital Frankfurt	Frankfurt
+F2044	University hospital Frankfurt	Frankfurt
+MHH1525	Hannover Medical School	Hanover
+MHH2419	Hannover Medical School	Hanover
+MHH1883	Hannover Medical School	Hanover
+F2045	University hospital Frankfurt	Frankfurt
+F2054	University hospital Frankfurt	Frankfurt
+F2055	University hospital Frankfurt	Frankfurt
+F2056	University hospital Frankfurt	Frankfurt
+F2059	University hospital Frankfurt	Frankfurt
+F2063	University hospital Frankfurt	Frankfurt
+F2064	University hospital Frankfurt	Frankfurt
+F2065	University hospital Frankfurt	Frankfurt
+F2073	University hospital Frankfurt	Frankfurt
+F2075	University hospital Frankfurt	Frankfurt
+F1894	University hospital Frankfurt	Frankfurt
+F1957	University hospital Frankfurt	Frankfurt
+F1959	University hospital Frankfurt	Frankfurt
+ZG302451	Görlitz	Görlitz
+F1965	University hospital Frankfurt	Frankfurt
+F1968	University hospital Frankfurt	Frankfurt
+F1979	University hospital Frankfurt	Frankfurt
+F1983	University hospital Frankfurt	Frankfurt
+F2000	University hospital Frankfurt	Frankfurt
+F2003	University hospital Frankfurt	Frankfurt
+F2005	University hospital Frankfurt	Frankfurt
+F1997	University hospital Frankfurt	Frankfurt
+F2010	University hospital Frankfurt	Frankfurt
+MHH14929	Hannover Medical School	Hanover
+F2017	University hospital Frankfurt	Frankfurt
+F2020	University hospital Frankfurt	Frankfurt
+F2093	University hospital Frankfurt	Frankfurt
+F2097	University hospital Frankfurt	Frankfurt
+F2098	University hospital Frankfurt	Frankfurt
+F2029	University hospital Frankfurt	Frankfurt
+F2119	University hospital Frankfurt	Frankfurt
+F2128	University hospital Frankfurt	Frankfurt
+F2081	University hospital Frankfurt	Frankfurt
+F2084	University hospital Frankfurt	Frankfurt
+ZG205864	Görlitz	Görlitz
+F2235	University hospital Frankfurt	Frankfurt
+F2236	University hospital Frankfurt	Frankfurt
+F2137	University hospital Frankfurt	Frankfurt
+F2148	University hospital Frankfurt	Frankfurt
+F2160	University hospital Frankfurt	Frankfurt
+F2165	University hospital Frankfurt	Frankfurt
+ZG302370	Görlitz	Görlitz
+F2166	University hospital Frankfurt	Frankfurt
+F2167	University hospital Frankfurt	Frankfurt
+F2172	University hospital Frankfurt	Frankfurt
+F2176	University hospital Frankfurt	Frankfurt
+F2199	University hospital Frankfurt	Frankfurt
+F2204	University hospital Frankfurt	Frankfurt
+F2205	University hospital Frankfurt	Frankfurt
+F2208	University hospital Frankfurt	Frankfurt
+F2230	University hospital Frankfurt	Frankfurt
+F2006	University hospital Frankfurt	Frankfurt
+F2086	University hospital Frankfurt	Frankfurt
+F2234	University hospital Frankfurt	Frankfurt
+F2240	University hospital Frankfurt	Frankfurt
+M70652746	University hospital Münster	Münster
+M70656672	University hospital Münster	Münster
+M70663247	University hospital Münster	Münster
+M70640527	University hospital Münster	Münster
+M70640096	University hospital Münster	Münster
+M70641593	University hospital Münster	Münster
+F2229	University hospital Frankfurt	Frankfurt
+M70633611	University hospital Münster	Münster
+M70635118	University hospital Münster	Münster
+M70638412	University hospital Münster	Münster
+M70646077	University hospital Münster	Münster
+M70646050	University hospital Münster	Münster
+M70647319	University hospital Münster	Münster
+M70649365	University hospital Münster	Münster
+M70604538	University hospital Münster	Münster
+ESP018	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP019	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP020	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP021	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP022	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP023	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP024	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F2224	University hospital Frankfurt	Frankfurt
+M70639645	University hospital Münster	Münster
+ESP025	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP026	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP027	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP028	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP029	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP030	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP031	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F1659	University hospital Frankfurt	Frankfurt
+F1747	University hospital Frankfurt	Frankfurt
+F1748	University hospital Frankfurt	Frankfurt
+F1752	University hospital Frankfurt	Frankfurt
+F1758	University hospital Frankfurt	Frankfurt
+F1760	University hospital Frankfurt	Frankfurt
+F1763	University hospital Frankfurt	Frankfurt
+F1787	University hospital Frankfurt	Frankfurt
+F1789	University hospital Frankfurt	Frankfurt
+F1810	University hospital Frankfurt	Frankfurt
+F1853	University hospital Frankfurt	Frankfurt
+ESP009	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP011	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP012	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP013	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP015	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F1823	University hospital Frankfurt	Frankfurt
+ESP032	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP033	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP034	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP035	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP036	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP037	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP038	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP039	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP040	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP043	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP044	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP046	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP047	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP048	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F1697	University hospital Frankfurt	Frankfurt
+F1712	University hospital Frankfurt	Frankfurt
+ESP050	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP053	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP054	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP055	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP057	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP060	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP061	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP063	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP064	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP065	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+M70563004	University hospital Münster	Münster
+M70564314	University hospital Münster	Münster
+M70564993	University hospital Münster	Münster
+M70565897	University hospital Münster	Münster
+M70565254	University hospital Münster	Münster
+ESP058	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP059	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F1689	University hospital Frankfurt	Frankfurt
+F1706	University hospital Frankfurt	Frankfurt
+F1724	University hospital Frankfurt	Frankfurt
+F1727	University hospital Frankfurt	Frankfurt
+F1688	University hospital Frankfurt	Frankfurt
+F1730	University hospital Frankfurt	Frankfurt
+F1746	University hospital Frankfurt	Frankfurt
+F1754	University hospital Frankfurt	Frankfurt
+F1759	University hospital Frankfurt	Frankfurt
+F1764	University hospital Frankfurt	Frankfurt
+F1795	University hospital Frankfurt	Frankfurt
+F1745	University hospital Frankfurt	Frankfurt
+F1757	University hospital Frankfurt	Frankfurt
+F1775	University hospital Frankfurt	Frankfurt
+F1796	University hospital Frankfurt	Frankfurt
+F1798	University hospital Frankfurt	Frankfurt
+F1801	University hospital Frankfurt	Frankfurt
+F1812	University hospital Frankfurt	Frankfurt
+F1821	University hospital Frankfurt	Frankfurt
+ESP066	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP067	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP068	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP069	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP070	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP071	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP072	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP073	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP074	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+Vb3320	University hospital Essen	Essen
+Vb16696	University hospital Essen	Essen
+Vb20477	University hospital Essen	Essen
+CF609_Isol_4	University hospital Essen	Essen
+CF590_Isol_5	University hospital Essen	Essen
+ESP075	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP076	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+F1741	University hospital Frankfurt	Frankfurt
+F1800	University hospital Frankfurt	Frankfurt
+F1862	University hospital Frankfurt	Frankfurt
+F1864	University hospital Frankfurt	Frankfurt
+F1869	University hospital Frankfurt	Frankfurt
+F1880	University hospital Frankfurt	Frankfurt
+F1883	University hospital Frankfurt	Frankfurt
+ESP084	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP002	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP003	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP004	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP005	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP006	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+CF592_Isol_2	University hospital Essen	Essen
+CF609_Isol_3	University hospital Essen	Essen
+CF609_Isol_5	University hospital Essen	Essen
+ESP081	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+M70608424	University hospital Münster	Münster
+CF577_Isol_7	University hospital Essen	Essen
+CF610_Isol_3	University hospital Essen	Essen
+ESP077	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP082	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP083	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP078	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP079	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP087	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP088	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP089	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP091	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP092	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+ESP001	"University hospital Palma de Mallorca, Spain"	"Palma de Mallorca, Spain"
+MD9121	University hospital Magdeburg	Magdeburg
+MD9126	University hospital Magdeburg	Magdeburg
+MD9212	University hospital Magdeburg	Magdeburg
+MD9120	University hospital Magdeburg	Magdeburg
+MD1037	University hospital Magdeburg	Magdeburg
+MD1498	University hospital Magdeburg	Magdeburg
+MD6439	University hospital Magdeburg	Magdeburg
+MD6136	University hospital Magdeburg	Magdeburg
+MD8386	University hospital Magdeburg	Magdeburg
+MD9481	University hospital Magdeburg	Magdeburg
+MD9723	University hospital Magdeburg	Magdeburg
+MD7404	University hospital Magdeburg	Magdeburg

@@ -1,0 +1,25 @@
+Origin	Geographic Origin	City_alt	City_lat	City_lon	color
+Zwickau	Zwickau	Zwickau	50.710702	12.482338	#000000
+University hospital Palma de Mallorca, Spain	Palma de Mallorca, Spain	Palma	39.569705	2.65068	#000000
+University hospital Münster	Münster	Muenster	51.960581	7.632328	#FF7F00
+University hospital Magdeburg	Magdeburg	Magdeburg	52.122932	11.630842	#000000
+University hospital Frankfurt	Frankfurt	Frankfurt	50.095042	8.661825	#377EB8
+University hospital Essen	Essen	Essen	51.434888	6.989348	#984EA3
+Stuttgart	Stuttgart	Stuttgart	48.777314	9.175146	#000000
+Romania	Romania	Romania	45.777328	24.528967	#000000
+Riesa	Riesa	Riesa	51.312141	13.26637	#000000
+Regensburg	Regensburg	Regensburg	49.012328	12.098322	#000000
+Radebeul	Radebeul	Radebeul	51.111511	13.652736	#000000
+Neubrandenburg	Neubrandenburg	Neubrandenburg	53.570992	13.253297	#000000
+Munich	Munich	Munich	48.134666	11.591951	#000000
+Leipzig	Leipzig	Leipzig	51.340412	12.368907	#000000
+Hungary	Hungary	Hungary	47.019558	19.722502	#000000
+Hannover Medical School	Hannover	Hannover	52.383668	9.804981	#A65628
+Görlitz	Görlitz	Goerlitz	51.151968	14.960807	#000000
+Gera	Gera	Gera	50.890969	12.100141	#000000
+Freiburg	Freiburg	Freiburg	47.998714	7.835549	#000000
+Chemnitz	Chemnitz	Chemnitz	50.82817	12.91912	#000000
+Charité Berlin	Berlin	Berlin	52.524063	13.393112	#FFFF33
+Bremen	Bremen	Bremen	53.077071	8.809062	#000000
+Berlin	Berlin	Berlin	52.524063	13.393112	#FFFF33
+
