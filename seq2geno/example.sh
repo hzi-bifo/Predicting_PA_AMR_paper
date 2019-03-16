@@ -1,1 +1,0 @@
-/net/sgi/metagenomics/projects/pseudo_genomics/results/seq2geno_testing/example.sh

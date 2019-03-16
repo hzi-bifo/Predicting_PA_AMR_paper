@@ -1,1 +1,5 @@
-/net/sgi/metagenomics/projects/pseudo_genomics/results/classification/v8/feature_curves/v4/validation.sh
+annot_name=("gpa" "snps" "expr" "gpa_expr" "gpa_snps" "expr_snps" "gpa_expr_snps")
+for j in "${!annot_name[@]}"; do
+    echo "traitar phenotype  . <(cat <(echo $'sample_file_name\tsample_name\n') <(paste <(cut -f1 ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt | tail -n+2)  <(cut -f1 ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt | tail -n+2 ))) from_annotation_summary validation_${annot_name[$j]}  -a  <(rev ~/pseudo_genomics/results/classification/v8/${annot_name[$j]}/pre_standardcv/annot_pheno.dat | cut -f6- | rev)  -p ${annot_name[$j]}_standard_cv_observed.tar.gz -p ~/pseudo_genomics/results/classification/v8/feature_curves/v4/${annot_name[$j]}_standard_cv_observed.tar.gz"
+    echo "python ~/pseudo_genomics/results/classification/v8/validate_traitar_raw.py validation_${annot_name[$j]} validation_${annot_name[$j]}/phenotype_prediction/${annot_name[$j]}_standard_cv_observed/predictions_raw.txt ~/pseudo_genomics/results/cv_folds/v3/standard_cv/validation_pheno_table.txt  " --raw_prediction;
+done

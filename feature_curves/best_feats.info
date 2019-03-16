@@ -1,1 +1,1 @@
-/net/sgi/metagenomics/projects/pseudo_genomics/results/classification/v8/feature_curves/v4/best_feats.info
+python get_best_feats.py best_models.txt best_feats.txt

@@ -1,1 +1,1 @@
-/net/sgi/metagenomics/projects/pseudo_genomics/results/classification/v8/feature_curves/v4/feat_perf.info
+python plot_no-feats_vs_performance.py F1-score_macro feat_perf.txt feats_aggr.txt --weights  repitition*_*_standard_cv/traitar-model_observed_out/*_S-vs-R_non-zero+weights.txt --performances repitition*_*_standard_cv/traitar-model_observed_out/*_S-vs-R_perf.txt 
