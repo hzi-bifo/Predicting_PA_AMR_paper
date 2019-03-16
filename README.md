@@ -1,6 +1,6 @@
 # Fighting Pseudomonas AMR paper 
 This repository contains instructions to re-produce the main analyses and figures in the paper.
-## Processing sequencing data: from raw sequencing data to features as input to the machine learning with seq2geno
+## Processing sequencing data: from raw sequencing data to features with seq2geno as input to the machine learning-based AMR prediction 
 Figure phylogenetic and geographic distribution of Pseudomonas aerugionosa strains:
 The folder *figure01* contains the data and scripts required to produce figure 1. More specifically, *figure_1a.R* creates the map that shows the origin of the Pseudomonas strains used in this study, *figure_1b_bar.R* and *figure_1b_pie.R* visualize the extent of drug resistance across all strains, and finally *tree_visualize.R* produces a depiction of the phylogenetic tree of strains including a number of reference isolates.  
 ## AMR classification with support vector machine classification using Model-T
