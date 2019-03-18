@@ -7,6 +7,8 @@ The folder *figure01* contains the data and scripts required to produce figure 1
 The SVM classification was done with Model-T https://github.com/aweimann/Model-T, which is a wrapper around scikit-learn and was used as the prediction engine in our previous work on bacterial trait prediction (Weimann et al. mSystems 2016).
 ### AMR prediction across diffferent combination of data types and different evaluation schemes.
 learning_curves/perf_barplot.R using the classification performance summary data in tables learning_curves/perf_all.txt and feature_curves/validation_overall.txt produces Figure 3 and Figure 5 of the paper.
+![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/learning_curves/cv_acc_standardcv_barplot_all_measures.png?token=ALaNNaMALZuHdcPUbbZfNchEQltS8zxZks5cmLSuwA%3D%3D)
+![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/learning_curves/cv_acc_standard_vs_blockcv_boxplot_all.png?token=ALaNNbjSxNNFHVkrCJehVgEJP-N3um-iks5cmLTdwA%3D%3D)
 ### Performance saturation by number of features
 feature_curves/feat_and_cparam2perf.R using the classification performance summary data in feat_perf.txt restricted to the best data combinations in best_models.txt produces Figure 4. 
 ### Performance saturation by number of samples
@@ -18,7 +20,7 @@ mic_misclassified/breakpoint_enrichment.R uses the table mic_misclassified/miscl
 
 misclassified_phylogeny/graphlan.sh produces Supplementary Figures 3-6 requiring GraPlAn using the pre-generated XML in misclassified_phylogeny/tree_annot_Tobra.xml etc..
 
-![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/misclassified_phylogeny/tree_cefta.png)
+![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/misclassified_phylogeny/tree_cefta.png?token=ALaNNU2IVQ_kAx8ScAlPS-wl4KoI_0Thks5cmLU6wA%3D%3D)
 
 ## Comparing different ML classifiers with geno2pheno 
 Figure:
