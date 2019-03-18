@@ -11,13 +11,14 @@ learning_curves/perf_barplot.R using the classification performance summary data
 feature_curves/feat_and_cparam2perf.R using the classification performance summary data in feat_perf.txt restricted to the best data combinations in best_models.txt produces Figure 4. 
 ### Performance saturation by number of samples
 learning_curves/plot_learning_curve_data.R using the performance summary data in table learning_curves/cv_perf_summary.txt produces Figure 6.
+![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/learning_curves/learning_curve_selected.png?token=ALaNNYCIb0a2kk64BgMrz0sc2DcH0CgGks5cmLRhwA%3D%3D)
 ### Analyzing misclassified samples
 mic_misclassified/mic_miscl_barplot.R using the drug resistance prediction outcome of all strains in table miscl_all_w_validation.txt produces Figure 7. 
 mic_misclassified/breakpoint_enrichment.R uses the table mic_misclassified/miscl_all_w_validation.txt to check for an enrichment of misclassified samples close to the resistance breakpoint and produces table mic_misclassified/misclassified_enrichment_sig.txt. 
 
 misclassified_phylogeny/graphlan.sh produces Supplementary Figures 3-6 requiring GraPlAn using the pre-generated XML in misclassified_phylogeny/tree_annot_Tobra.xml etc..
 
-![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/misclassified_phylogeny/tree_cefta.png?token=ALaNNcDhpQCk8J_v8W5jVZAMud2oQlGgks5cl3gQwA%3D%3D)
+![alt text](https://raw.githubusercontent.com/hzi-bifo/Fighting_PA_AMR_paper/master/misclassified_phylogeny/tree_cefta.png)
 
 ## Comparing different ML classifiers with geno2pheno 
 Figure:
