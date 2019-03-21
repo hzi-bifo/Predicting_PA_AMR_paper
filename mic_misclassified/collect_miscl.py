@@ -30,7 +30,7 @@ def collect(out, miscl_validation, miscl_cv):
         
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser("extract amino acid or nucleotide acid sequences from the Roary and Prokka output")
+    parser = argparse.ArgumentParser("collect misclassified samples from Model-T files")
     parser.add_argument("out", help="output table of misclassified samples")
     parser.add_argument("--miscl_validation", help='misclassified validation', nargs = "*")
     parser.add_argument("--miscl_cv", help='misclassified cross validation', nargs = "*")

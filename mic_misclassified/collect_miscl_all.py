@@ -23,11 +23,11 @@ def read(miscl_tables, out_table):
         mic_counts = mic.apply(pd.Series.value_counts, axis = 0).loc[:, target]
         concat = pd.concat([mic_counts, mic_miscl_counts], axis = 1)
         concat = concat.reset_index()
-        concat.columns = ["MIC", "total", "misclassified"]
-        concat.misclassified[pd.isnull(concat.loc[:, "misclassified"]) & pd.notnull(concat.loc[:, "total"])] = 0
-        #concat = concat.loc[pd.isnull(concat.loc[:, "misclassified"]) & pd.null(concat.loc[:, "total"]), ]
-        concat.total = concat.total - concat.misclassified
-        concat = concat.melt(id_vars = ["MIC"], value_vars = ["total", "misclassified"])
+        concat.columns = ["MIC", "correct", "misclassified"]
+        concat.misclassified[pd.isnull(concat.loc[:, "misclassified"]) & pd.notnull(concat.loc[:, "correct"])] = 0
+        #concat = concat.loc[pd.isnull(concat.loc[:, "misclassified"]) & pd.null(concat.loc[:, "correct"]), ]
+        concat.correct = concat.correct - concat.misclassified
+        concat = concat.melt(id_vars = ["MIC"], value_vars = ["correct", "misclassified"])
         if target in atb2bp:
             concat = concat.loc[concat.loc[:, "MIC",] != atb2bp[target], ]
             concat = concat.append({"MIC":atb2bp[target], "variable": "intermediate (not classified)", "value" : mic_counts.loc[atb2bp[target]]}, ignore_index = True)
@@ -36,11 +36,12 @@ def read(miscl_tables, out_table):
         concat = concat.loc[pd.notnull(concat.loc[:, "value"]), :]
         if mode == "":
             mode = "_".join(miscl.split("/")[-2].split("_")[1:])
-            print out_df
             concat = concat.loc[concat.loc[:, 'variable'] == "misclassified", "value"]
-            print concat
-            print out_df.loc[(out_df.loc[:, 'variable'] == "misclassified") & (out_df.loc[:, 'drug'] == target) & (out_df.loc[:, 'mode'] == mode), "value"]
+            #print concat
+            #print out_df.loc[(out_df.loc[:, 'variable'] == "correct") & (out_df.loc[:, 'drug'] == target) & (out_df.loc[:, 'mode'] == mode), "value"]
             out_df.loc[(out_df.loc[:, 'variable'] == "misclassified") & (out_df.loc[:, 'drug'] == target) & (out_df.loc[:, 'mode'] == mode), "value"] += concat
+            out_df.loc[(out_df.loc[:, 'variable'] == "correct") & (out_df.loc[:, 'drug'] == target) & (out_df.loc[:, 'mode'] == mode), "value"] -= pd.np.array(concat)
+            #print(out_df.loc[(out_df.loc[:, 'variable'] == "correct") & (out_df.loc[:, 'drug'] == target) & (out_df.loc[:, 'mode'] == mode), "value"])
         else:
             out_df = pd.concat([out_df, concat], axis = 0)
     out_df.to_csv(out_table, index = None, sep = "\t")
