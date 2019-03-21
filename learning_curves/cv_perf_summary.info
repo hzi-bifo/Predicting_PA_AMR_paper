@@ -1,0 +1,1 @@
+python clcd.py  F1-score_macro  cv_perf_summary.txt  414 --performances sample*_repition*/traitar-model_observed_out/cv_acc.txt

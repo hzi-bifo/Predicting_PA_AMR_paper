@@ -1,0 +1,2 @@
+python /net/sgi/metagenomics/projects/pseudo_genomics/src/PseudoGenomics/learning/subsample.py   ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/data/clinical_isolates_ids_v3.txt subsampling/  pheno_table
+
