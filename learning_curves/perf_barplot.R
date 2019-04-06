@@ -16,7 +16,7 @@ perf <- filter(perf, (drug == "CIP") | (drug == "MEM") | (drug == "TOB") | (drug
 p <- ggplot(perf, aes(x = mode, y = `F1-score_macro`
                       , color = cv_mode)) +
      theme_light()+
-     theme() +
+     theme(legend.position="bottom", legend.box = "horizontal") +
      geom_boxplot(outlier.size = 0.5, lwd = 0.4) + 
      facet_grid(drug ~ .) +
      labs(y = "F1-score macro", x = "", color = "") + 
@@ -35,6 +35,7 @@ p <- ggplot(perf_cvmode, aes(x = measure, y = value, color = mode)) +
     geom_boxplot(outlier.size = 0.5, lwd = 0.4) + 
     facet_grid(drug ~ .) +
     theme_light()+
+    theme(legend.position="bottom", legend.box = "horizontal") +
     #theme_light(base_size = rel(5))+
     labs(color = "")+
     labs(x  = "")+

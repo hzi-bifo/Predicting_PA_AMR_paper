@@ -1,0 +1,6 @@
+#collect misclassified samples
+python misclassified/v2/collect_miscl_all.py misclassified/v2/miscl_all_w_validation.txt  --miscl_tables  learning_curves/v3/repition0_*standard_cv/traitar-model_observed_out/*_S-vs-R_miscl.txt  $(tail -n+2 feature_curves/v4/best_models.txt | awk '{print "feature_curves/v4/validation_"$2"/"$3"_S-vs-R_"$4".txt"}' | tr "\n" " " )
+#plot 
+Rscript mic_miscl_barplot.R
+#breakpoint enrichment
+Rscript breakpoint_enrichment.R

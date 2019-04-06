@@ -1,0 +1,13 @@
+#feature performance saturation curves
+#run learning curves first
+#build models based on 80% of the data with pre-assigend randomly selected folds
+bash learning_curves_all.sh
+#collect features for each drug  
+python plot_no-feats_vs_performance.py F1-score_macro feat_perf.txt feats_aggr.txt --weights  repitition*_*_standard_cv/traitar-model_observed_out/*_S-vs-R_non-zero+weights.txt --performances repitition*_*_standard_cv/traitar-model_observed_out/*_S-vs-R_perf.txt
+#manually retrieve the model for each data type combiantion with the best performance within one standard deviation and save to best_models.txt
+#plot feature performance saturation curve
+Rscript feat_and_cparam2perf.R
+#get the features for the best model for each drug
+python get_best_feats.py best_models.txt best_feats.txt
+#create final feature summary table (Table 1)
+python generate_feature_summary_table.py best_feats.txt best_feats_selected_formatted.txt
