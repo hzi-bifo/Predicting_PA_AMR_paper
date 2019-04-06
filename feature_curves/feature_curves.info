@@ -1,5 +1,5 @@
 #feature performance saturation curves
-#run learning curves first
+#split full data set into training and validation in learning curves analysis first
 #build models based on 80% of the data with pre-assigend randomly selected folds
 bash learning_curves_all.sh
 #collect features for each drug  
@@ -11,3 +11,8 @@ Rscript feat_and_cparam2perf.R
 python get_best_feats.py best_models.txt best_feats.txt
 #create final feature summary table (Table 1)
 python generate_feature_summary_table.py best_feats.txt best_feats_selected_formatted.txt
+#use best models to predict validation samples
+bash validation.sh
+#collect validation performance summary
+python  ~/pseudo_genomics/src/PseudoGenomics/learning/collect_validation_perf.py best_models.txt  validation_overall.txt  --performances validation_*/perf_per_pt.txt
+

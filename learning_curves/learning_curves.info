@@ -1,0 +1,25 @@
+#pipeline for the learning curve analysis
+#split into training and validation 
+python ~/pseudo_genomics/src/PseudoGenomics/learning/make_cv_folds.py  10 ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/results/cv_folds/v3/block_cv/ --blocks ~/pseudo_genomics/results/cv_folds/v2/block_cv/sample2seqtype.txt --test_set 0.2
+python ~/pseudo_genomics/src/PseudoGenomics/learning/make_cv_folds.py  10 ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/results/cv_folds/v3/standard_cv/  --test_set 0.2
+#create 80% drug resistance table
+#training
+python  make_validation_table.py ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/results/cv_folds/v3/standard_cv/training_pheno_table.txt --training  --test_samples ~/pseudo_genomics/results/cv_folds/v3/standard_cv/*test*
+#test
+python  make_validation_table.py ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/results/cv_folds/v3/block_cv/training_pheno_table.txt  --test_samples ~/pseudo_genomics/results/cv_folds/v3/standard_cv/*test*
+#create pre-computed folds for 80% data chunk 
+bash make_folds.sh
+#use Model-T on the pre-computed folds
+bash learning_curves_all.sh
+#collect performance data
+python collect_perf_data.py perf_all.txt  --performances repition*/traitar-model_observed_out/cv_acc.txt
+Rscript perf_barplot.R
+#create random sub samples of the full data set
+python /net/sgi/metagenomics/projects/pseudo_genomics/src/PseudoGenomics/learning/subsample.py   ~/pseudo_genomics/data/MIC/v3/pheno_table_CLSI_S-vs-R.txt ~/pseudo_genomics/data/clinical_isolates_ids_v3.txt subsampling/  pheno_table
+
+#run Model-T on five randomly assigned cross validation set-ups
+bash learning_curves_all_sample.sh
+#collect performance data
+python clcd.py  F1-score_macro  cv_perf_summary.txt  414 --performances sample*_repition*/traitar-model_observed_out/cv_acc.txt
+#plot learning curves
+Rscript plot_learning_curve_data.R  #also creates long version of perf_all.txt -> perf_all_aggregated.txt
