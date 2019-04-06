@@ -14,7 +14,7 @@ feature_curves/feat_and_cparam2perf.R using the classification performance summa
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/feature_curves/c-param_vs_perf.png)
 ### Performance saturation by number of samples
 learning_curves/plot_learning_curve_data.R using the performance summary data in table learning_curves/cv_perf_summary.txt produces Figure 6.
-![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curve_selected.png)
+![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curves/learning_curve_selected.png)
 ### Analyzing misclassified samples
 mic_misclassified/mic_miscl_barplot.R using the drug resistance prediction outcome of all strains in table miscl_all_w_validation.txt produces Figure 7. 
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/mic_misclassified/mic_vs_miscl_selected.png)
