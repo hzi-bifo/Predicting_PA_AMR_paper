@@ -11,7 +11,6 @@ perf <- perf %>% select(-one_of("neg_recall", "neg_recall_std", "precision", "pr
 perf <- full_join(perf, perf_validation, on = c("mode", "drug", "F1-score_macro"))
 
 
-#discard Colistin results
 perf <- filter(perf, (drug == "CIP") | (drug == "MEM") | (drug == "TOB") | (drug == "CAZ"))
 p <- ggplot(perf, aes(x = mode, y = `F1-score_macro`
                       , color = cv_mode)) +

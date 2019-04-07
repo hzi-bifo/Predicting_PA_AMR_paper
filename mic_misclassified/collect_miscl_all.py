@@ -1,6 +1,6 @@
 import pandas as pd
 def read(miscl_tables, out_table):
-    atbs = ["Tobramycin", "Ciprofloxacin", "Meropenem", "Ceftazidim", "Colistin"]
+    atbs = ["Tobramycin", "Ciprofloxacin", "Meropenem", "Ceftazidim"]
     bps = [8.0, 2.0, 4.0, 16.0]
     atb2bp = dict([(atb, conc) for atb, conc in zip(atbs, bps)])
     mic_table = "/home/aweimann/pseudo_genomics/data/MIC/v3/final_isolates_paper_numeric.txt"
