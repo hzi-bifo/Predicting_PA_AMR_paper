@@ -1,0 +1,4 @@
+	Tobramycin	Ceftazidim	Ciprofloxacin	Meropenem
+susceptible	276	169	159	110
+intermediate resistant	8	80	56	60
+resistant	130	165	199	244

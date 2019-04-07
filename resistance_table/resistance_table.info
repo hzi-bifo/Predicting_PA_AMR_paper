@@ -1,0 +1,2 @@
+python parse_mic.py  final_isolates_paper.txt 
+cut -f1-6 pheno_table_CLSI.txt >  pheno_table_CLSI_S-vs-R.txt
