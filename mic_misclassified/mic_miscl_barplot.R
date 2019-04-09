@@ -6,7 +6,7 @@ library(plyr)
 library(tidyr)
 library(readr)
 library(argparse)
-miscl_df <- read_tsv("~/pseudo_genomics/results/classification/v8/misclassified/v2/miscl_all_w_validation.txt")
+miscl_df <- read_tsv("miscl_all_w_validation.txt")
 drugs = c("Ciprofloxacin", "Tobramycin", "Ceftazidim", "Meropenem")
 miscl_df <- filter(miscl_df, drug == "Ciprofloxacin" & mode == "snps" | drug == "Ceftazidim" & mode == "gpa_expr" | drug == "Tobramycin" & mode == "gpa_expr" | drug == "Meropenem" & mode == "gpa_expr")
 miscl_df$drug <- recode(miscl_df$drug, Ciprofloxacin= "CIP", Meropenem = "MEM", Ceftazidim = "CAZ", Tobramycin = "TOB")
@@ -15,6 +15,7 @@ p <- ggplot(data = miscl_df, aes(x = as.factor(MIC), y = value, fill = fct_relev
     geom_bar(stat = "identity") + facet_wrap(~ drug + mode) +
     theme(axis.text.x = element_text(angle = 90, hjust = 1))+
     theme(legend.position="bottom", legend.box = "horizontal") +
+    theme_light() +
     xlab("MIC") +
     ylab("#isolates")+
     scale_fill_manual(labels=c("misclassified", "correctly classified", "intermediate (not classified)"), values = c('#d95f02','#1b9e77','#7570b3')) + 

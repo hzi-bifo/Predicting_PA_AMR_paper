@@ -25,4 +25,5 @@ perf <- mutate(perf, type = replace(type, type == "no_feats", "#markers"))
          scale_color_discrete(labels = c("optimal model", "non-optimal model")) +
          labs(y = "", x = "SVM C parameter", color ="") + 
          theme(legend.position="bottom", legend.box = "horizontal") +
+         theme_light()+
 ggsave(paste("c-param_vs_perf.png", sep = ""))

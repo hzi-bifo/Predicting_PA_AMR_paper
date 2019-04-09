@@ -6,5 +6,6 @@ t$mode <- recode(t$mode, snps= "SNPs", gpa_expr= "GPA+EXPR")
 plot <- ggplot(t,  aes(as.factor(no_samples), `F1-score_macro`))  +
     geom_boxplot(aes(y = `F1-score_macro`, x = as.factor(no_samples)))+
     facet_wrap(~ drug + mode) + geom_point()+
+     theme_light()+
     xlab("#samples")
 ggsave(paste("learning_curve_selected.png", sep = ""))
