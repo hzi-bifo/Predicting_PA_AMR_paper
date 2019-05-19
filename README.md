@@ -31,4 +31,4 @@ misclassified_phylogeny/graphlan.sh produces Supplementary Figures 3-6 requiring
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_tobra.png)
 ## Comparing different ML classifiers with geno2pheno 
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_1_classifier_comparison.png)
-![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_1_classifier_comparison_validation.png)
+![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_2_classifier_comparison_validation.png)
