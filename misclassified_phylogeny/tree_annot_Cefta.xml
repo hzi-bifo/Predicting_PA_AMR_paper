@@ -4574,8 +4574,8 @@
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__2__ring_color" ref="A:1">#000000</property>
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__1__ring_internal_separator_thickness" ref="A:1">1.0</property>
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__2__ring_internal_separator_thickness" ref="A:1">1.0</property>
-    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__1__ring_label" ref="A:1">Ceftazidim susceptibility</property>
-    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__2__ring_label" ref="A:1">Ceftazidim GPA+EXPR prediction</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__1__ring_label" ref="A:1">Ceftazidime susceptibility</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__2__ring_label" ref="A:1">Ceftazidime GPA+EXPR prediction</property>
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="start_rotation" ref="A:1">270</property>
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="total_plotted_degrees" ref="A:1">320</property>
     <property applies_to="phylogeny" datatype="xsd:string" id_ref="ext__1__ring_alpha" ref="A:1">1.0</property>
