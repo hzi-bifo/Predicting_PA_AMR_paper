@@ -7,7 +7,7 @@ The folder *figure01* contains the data and scripts required to produce figure 1
 ## AMR classification with support vector machine classification using Model-T
 The SVM classification was done with Model-T https://github.com/aweimann/Model-T, which is based on scikit-learn and was used as the prediction engine in our previous work on bacterial trait prediction (Weimann et al. mSystems 2016).
 learning_curves/learning_curves.info, feature_curves/feature_curves.info and mic_misclassified/mic_misclassified.info are bash scripts that re-produce the respective part of the analysis using the processed sequencing data. Handle with care: They are not intended to be run in one go. For convenience, smaller result tables are included in this repository. 
-### AMR prediction across diffferent combination of data types and different evaluation schemes.
+### AMR prediction across different combination of data types and different evaluation schemes.
 learning_curves/perf_barplot.R using the classification performance summary data in tables learning_curves/perf_all.txt and feature_curves/validation_overall.txt produces Figure 3 and Figure 5 of the paper.
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curves/cv_acc_standardcv_barplot_all_measures.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curves/cv_acc_standard_vs_blockcv_boxplot_all.png)
