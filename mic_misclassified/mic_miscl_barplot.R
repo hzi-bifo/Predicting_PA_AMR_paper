@@ -19,5 +19,5 @@ p <- ggplot(data = miscl_df, aes(x = as.factor(MIC), y = value, fill = fct_relev
     xlab("MIC") +
     ylab("#isolates")+
     scale_fill_manual(labels=c("misclassified", "correctly classified", "intermediate (not classified)"), values = c('#d95f02','#1b9e77','#7570b3')) + 
-    labs(fill = "drug sensitivity")
+    labs(fill = "")
 ggsave(paste("mic_vs_miscl_selected.png", sep = ""))

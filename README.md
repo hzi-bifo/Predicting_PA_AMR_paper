@@ -3,10 +3,11 @@ This repository contains instructions to re-produce the main analyses and figure
 ## Processing sequencing data: from raw sequencing data to features with seq2geno as input to the machine learning-based AMR prediction 
 Figure phylogenetic and geographic distribution of Pseudomonas aerugionosa strains:
 The folder *figure01* contains the data and scripts required to produce figure 1. More specifically, *figure_1a.R* creates the map that shows the origin of the Pseudomonas strains used in this study, *figure_1b_bar.R* and *figure_1b_pie.R* visualize the extent of drug resistance across all strains, and finally *tree_visualize.R* produces a depiction of the phylogenetic tree of strains including a number of reference isolates.  
+![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/figure01/Fig_1_tree_and_sampling_locations.png)
 ## AMR classification with support vector machine classification using Model-T
-The SVM classification was done with Model-T https://github.com/aweimann/Model-T, which is a wrapper around scikit-learn and was used as the prediction engine in our previous work on bacterial trait prediction (Weimann et al. mSystems 2016).
+The SVM classification was done with Model-T https://github.com/aweimann/Model-T, which is based on scikit-learn and was used as the prediction engine in our previous work on bacterial trait prediction (Weimann et al. mSystems 2016).
 learning_curves/learning_curves.info, feature_curves/feature_curves.info and mic_misclassified/mic_misclassified.info are bash scripts that re-produce the respective part of the analysis using the processed sequencing data. Handle with care: They are not intended to be run in one go. For convenience, smaller result tables are included in this repository. 
-### AMR prediction across diffferent combination of data types and different evaluation schemes.
+### AMR prediction across different combination of data types and different evaluation schemes.
 learning_curves/perf_barplot.R using the classification performance summary data in tables learning_curves/perf_all.txt and feature_curves/validation_overall.txt produces Figure 3 and Figure 5 of the paper.
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curves/cv_acc_standardcv_barplot_all_measures.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/learning_curves/cv_acc_standard_vs_blockcv_boxplot_all.png)
@@ -29,4 +30,5 @@ misclassified_phylogeny/graphlan.sh produces Supplementary Figures 3-6 requiring
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_mero.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_tobra.png)
 ## Comparing different ML classifiers with geno2pheno 
-Figure:
+![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_1_classifier_comparison.png)
+![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_2_classifier_comparison_validation.png)
