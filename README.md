@@ -1,8 +1,9 @@
 # Fighting Pseudomonas AMR paper 
 This repository contains instructions to re-produce the main analyses and figures in the paper. The DNAseq and RNAseq data can be dowloaded from NCBI’s Gene Expression Omnibus and the Short Read Archive using the accessions: GSE123544 (RNAseq) and PRJNA526797 (DNAseq).
 ## Processing sequencing data: from raw sequencing data to features with seq2geno as input to the machine learning-based AMR prediction 
+The Geno2Pheno package wraps variant calling, phylogenetic tree inference, pan-genome analysis etc.. It produces the input molecular features for the subsequent antimicrobial resistance classification from the raw sequencing data. For details see https://github.com/hzi-bifo/seq2geno.  
 Figure phylogenetic and geographic distribution of Pseudomonas aerugionosa strains:
-The folder *figure01* contains the data and scripts required to produce figure 1. More specifically, *figure_1a.R* creates the map that shows the origin of the Pseudomonas strains used in this study, *figure_1b_bar.R* and *figure_1b_pie.R* visualize the extent of drug resistance across all strains, and finally *tree_visualize.R* produces a depiction of the phylogenetic tree of strains including a number of reference isolates.  
+The folder *Figure01* contains the data and scripts required to produce Figure 1. More specifically, *figure_1a.R* creates the map that shows the origin of the Pseudomonas strains used in this study, *figure_1b_bar.R* and *figure_1b_pie.R* visualize the extent of drug resistance across all strains, and finally *tree_visualize.R* produces a depiction of the phylogenetic tree of strains including a number of reference isolates.  
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/figure01/Fig_1_tree_and_sampling_locations.png)
 ## AMR classification with support vector machine classification using Model-T
 The SVM classification was done with Model-T https://github.com/aweimann/Model-T, which is based on scikit-learn and was used as the prediction engine in our previous work on bacterial trait prediction (Weimann et al. mSystems 2016).
@@ -29,6 +30,7 @@ misclassified_phylogeny/graphlan.sh produces Supplementary Figures 3-6 requiring
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_cipro.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_mero.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/misclassified_phylogeny/tree_tobra.png)
-## Comparing different ML classifiers with geno2pheno 
+## Comparing different ML classifiers with Geno2Pheno
+The Geno2Pheno package employs a broad range of classifiers for resistance prediction. See https://github.com/hzi-bifo/Geno2Pheno for details and commands to re-produce the analysis.
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_1_classifier_comparison.png)
 ![alt text](https://github.com/hzi-bifo/Fighting_PA_AMR_paper/blob/master/ml_classifier_comparison/Sup_Fig_2_classifier_comparison_validation.png)
