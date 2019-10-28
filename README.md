@@ -1,4 +1,4 @@
-# Fighting Pseudomonas AMR paper 
+# Predicting antimicrobial resistance in Pseudomonas aeruginosa with machine learning-enabled molecular diagnostics
 This repository contains instructions to re-produce the main analyses and figures in the paper. The DNAseq and RNAseq data can be dowloaded from NCBI’s Gene Expression Omnibus and the Short Read Archive using the accessions: GSE123544 (RNAseq) and PRJNA526797 (DNAseq).
 ## Processing sequencing data: from raw sequencing data to features with seq2geno as input to the machine learning-based AMR prediction 
 The Geno2Pheno package wraps variant calling, phylogenetic tree inference, pan-genome analysis etc.. It produces the input molecular features for the subsequent antimicrobial resistance classification from the raw sequencing data. For details see https://github.com/hzi-bifo/seq2geno.  
